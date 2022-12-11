@@ -127,7 +127,7 @@ li {
   .nav-list {
     position: fixed;
     left: -100%;
-    top: 59px;
+    top: 0px;
     flex-direction: column;
     width: 100%;
     text-align: center;
