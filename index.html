@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="darken">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-list__item"><a class="nav-list__link" href="#about-me">About me</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="#contacts">Contacts</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="#skills">Skills</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="#code-example">Code example</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="#projects">Projects</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="#education">Education</a></li>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="container">
+          <section class="section section__cv cv">
+            <h1>Curriculum Vitae</h1>
+          </section>
+
+          <section class="section section__about-me about-me" id="about-me">
+            <h2>About me:</h2>
+            <div class="line"></div>
+            <div class="about-me__information information">
+              <div class="information__text">
+                <p>
+                  Hello there! My name is Siarhei Shupilau, I am a student at Belarusian State University.
+                  I want to become a professional web developer. So, I have started this course - RSS JavaScript
+                  FrontEnd
+                  PreSchool 2022Q4.
+                  I wish everyone good luck in their studies!
+                </p>
+              </div>
+              <div class="information__image">
+                <img src="./images/me.jpeg" alt="My photo">
+              </div>
+            </div>
+          </section>
+
+          <section class="section section__contacts contacts" id="contacts">
+            <h2>My contacts:</h2>
+            <div class="line"></div>
+            <p>You can contact me via:</p>
+            <ul class="contacts-list list">
+              <li class="contacts-list__item list__item">
+                <a href="https://t.me/xesvos" target="_blank"><img src="./images/contacts/telegram-icon.png"
+                    alt="telegram icon"></a>
+                <a href="https://t.me/xesvos" target="_blank">Telegram</a>
+              </li>
+              <li class="contacts-list__item list__item">
+                <a href="https://www.linkedin.com/in/sergey-shupilov-a9356422b/" target="_blank"><img
+                    src="./images/contacts/linkedin-icon.png" alt="linkedin icon"></a>
+                <a href="https://www.linkedin.com/in/sergey-shupilov-a9356422b/" target="_blank">LinkedIn</a>
+              </li>
+              <li class="contacts-list__item list__item">
+                <a href="https://discordapp.com/users/1048600892674416720" target="_blank" class="discord-logo">
+                  <img src="./images/contacts/discord-icon.png" alt="discord icon">
+                </a>
+                <a href="https://discordapp.com/users/1048600892674416720" target="_blank">Discord</a>
+              </li>
+              <li class="contacts-list__item list__item">
+                <a href="https://github.com/xesvos" target="_blank">
+                  <img src="./images/contacts/github-icon.png" alt="github icon">
+                </a>
+                <a href="https://github.com/xesvos" target="_blank">GitHub</a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section section__skills skills" id="skills">
+            <h2>Skills:</h2>
+            <div class="line"></div>
+            <p>I have this skills:</p>
+            <ul class="skills__list skills-list list">
+              <li class="skills-list__item list__item">
+                <img src="./images/skills/html-icon.png" alt="html logo">
+                <p>Basic HTML5</p>
+              </li>
+              <li class="skills-list__item list__item">
+                <img src="./images/skills/css-icon.png" alt="css logo">
+                <p>Basic CSS3</p>
+              </li>
+              <li class="skills-list__item list__item">
+                <img src="./images/skills/md-icon.png" alt="markdown logo">
+                <p>Basic Markdown</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section section__code-example code-example" id="code-example">
+            <h2>Code example:</h2>
+            <div class="line"></div>
+            <pre><code>
+  function helloWorld() {
+    let str = "Hello, World!";
+    console.log(str);
+  }
+  </code></pre>
+          </section>
+
+          <section class="section section__projects projects" id="projects">
+            <h2>My projects:</h2>
+            <div class="line"></div>
+            <p>Here is the list of my projects:</p>
+            <ul class="projects__list projects-list list">
+              <li class="projects-list__item list__item">
+                <a class="projects-list__link" href="https://github.com/xesvos/rsschool-cv" target="_blank">
+                  RS School CV
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section section__education education" id="education">
+            <h2>Education and English level:</h2>
+            <div class="line"></div>
+            <p>I have finished 11 grades of school. My English level is A1.</p>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <ul class="footer-elements-list">
+            <li class="footer-elements-list__item">
+              <a href="https://github.com/xesvos" target="_blank">
+                <img src="./images/footer/github-logo.png" alt="github logo">
+              </a>
+            </li>
+            <li class="footer-elements-list__item">Created in 2022</li>
+            <li class="footer-elements-list__item">
+              <a href="https://rs.school/js/" target="_blank">
+                <img src="./images/footer/rs-school-logo.svg" alt="rsschool logo">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="./js/hamburger.js"></script>
+</body>
+
+</html>

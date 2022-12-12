@@ -1,0 +1,131 @@
+.section {
+  width: 100%;
+
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+
+.section__cv,
+.section__about-me,
+.section__contacts,
+.section__skills,
+.section__code-example,
+.section__projects,
+.section__education {
+  margin-top: 100px;
+}
+
+.list {
+  margin-top: 10px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 40px;
+    }
+
+    p,
+    a {
+      font-size: 20px;
+      margin-left: 10px;
+    }
+  }
+}
+
+// CV section
+.cv {
+  text-align: center;
+
+  h1 {
+    font-weight: bold;
+    font-size: 52px;
+  }
+}
+
+// About me section
+.information {
+  display: flex;
+  justify-content: space-between;
+
+  &__text {
+    width: 70%;
+    text-align: justify;
+  }
+
+  &__image {
+    width: 25%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// Contacts
+.discord-logo {
+  padding: 2px;
+
+  img {
+    width: 36px;
+  }
+}
+
+.projects-list__link {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 0;
+
+  &::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    margin-top: 2px;
+    background-color: black;
+    transition: width 0.5s ease-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+// About me different screen resolutions
+@media screen and (max-width: 767px) {
+  .information {
+    &__text {
+      width: 55%;
+    }
+
+    &__image {
+      width: 40%;
+    }
+  }
+}
+
+@media screen and (max-width: 627px) {
+  .information {
+    display: flex;
+    flex-direction: column;
+
+    &__text {
+      order: 2;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    &__image {
+      order: 1;
+      width: 100%;
+    }
+  }
+}
