@@ -22,6 +22,11 @@ li {
   list-style-type: none;
 }
 
+// img {
+//   position: relative;
+//   z-index: 0;
+// }
+
 .line {
   width: 100%;
   height: 3px;
@@ -43,4 +48,15 @@ li {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.darken.active {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(#000000, 0.5);
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
 }

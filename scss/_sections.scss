@@ -71,7 +71,11 @@
 
 // Contacts
 .discord-logo {
-  border: 2px solid white;
+  padding: 2px;
+
+  img {
+    width: 36px;
+  }
 }
 
 .projects-list__link {
