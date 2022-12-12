@@ -54,10 +54,13 @@ li {
 .darken.active {
   position: relative;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   top: 0;
   left: 0;
   width: 100%;
+}
+.darken.active .main img {
+  opacity: 30%;
 }
 
 .header {
